@@ -249,3 +249,48 @@ main .section {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+
+
+/* new styles */
+
+
+code, pre, samp {
+  font-family: var(--fixed-font-family);
+  font-size: var(--body-font-size-s);
+}
+
+
+code, samp {
+  padding: .125em;
+}
+
+
+pre {
+  overflow: scroll;
+}
+
+
+main pre {
+  background-color: var(--overlay-background-color);
+  padding: 1em;
+  border-radius: .25em;
+  overflow-x: auto;
+  white-space: pre;
+}
+
+
+a:any-link {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+
+a:hover {
+  text-decoration: underline;
+  color: var(--link-hover-color);
+}
+
+
+/* buttons */
+a.button:any-link, button {
+  font-family: var(--body-font-family);
