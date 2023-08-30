@@ -159,7 +159,7 @@ a:any-link {
 
 a:hover {
   text-decoration: underline;
-  color: var(--link-hover-color);
+  color: #f9e46f;
 }
 
 /* buttons */
