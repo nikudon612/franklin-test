@@ -2,6 +2,9 @@ footer {
   padding: 2rem;
   background-color: var(--overlay-background-color);
   font-size: var(--body-font-size-s);
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
 
 footer .footer {
